@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "nombre": "Bicicleta de Montaña XTR",
+        "precio": 750.000,
+        "descripcion": "Bicicleta robusta para montaña con suspensión completa.",
+        "stock": 10
+    },
+    {
+        "id": 2,
+        "nombre": "Bicicleta de Ruta ZR",
+        "precio": 650.000,
+        "descripcion": "Ligera y aerodinámica, perfecta para largas distancias.",
+        "stock": 5
+    },
+
+        {
+            "id": 3,
+            "nombre": "Bicicleta Híbrida Sport",
+            "precio": 500.000,
+            "descripcion": "Ideal para la ciudad y caminos ligeros.",
+            "stock": 15
+        },
+        {
+            "id": 4,
+            "nombre": "Bicicleta de Montaña All-Mountain",
+            "precio": 900.000,
+            "descripcion": "Diseñada para terrenos difíciles y aventureros.",
+            "stock": 8
+        },
+        {
+            "id": 5,
+            "nombre": "Bicicleta de Ruta Pro",
+            "precio": 1.200000,
+            "descripcion": "Máxima velocidad y rendimiento en carretera.",
+            "stock": 3
+        },
+        {
+            "id": 6,
+            "nombre": "Bicicleta de Paseo Classic",
+            "precio": 400.000,
+            "descripcion": "Estilo clásico para paseos tranquilos.",
+            "stock": 12
+        },
+        {
+            "id": 7,
+            "nombre": "Bicicleta Eléctrica City",
+            "precio": 1.600000,
+            "descripcion": "Bicicleta eléctrica para una movilidad urbana eficiente.",
+            "stock": 5
+        },
+        {
+            "id": 8,
+            "nombre": "Bicicleta de Montaña Enduro",
+            "precio": 1.100000,
+            "descripcion": "Perfecta para descensos y subidas desafiantes.",
+            "stock": 7
+        },
+        {
+            "id": 9,
+            "nombre": "Bicicleta BMX Stunt",
+            "precio": 350.000,
+            "descripcion": "Diseñada para acrobacias y trucos en el parque.",
+            "stock": 20
+        },
+        {
+            "id": 10,
+            "nombre": "Bicicleta de Carga Cargo",
+            "precio": 800.000,
+            "descripcion": "Ideal para transportar mercancías en la ciudad.",
+            "stock": 4
+        },
+        {
+            "id": 11,
+            "nombre": "Bicicleta Infantil Xplorer",
+            "precio": 200.000,
+            "descripcion": "Bicicleta segura y divertida para niños.",
+            "stock": 10
+        },
+        {
+            "id": 12,
+            "nombre": "Bicicleta de Ciclocross Adventure",
+            "precio": 950.000,
+            "descripcion": "Perfecta para terrenos variados y competiciones.",
+            "stock": 6
+        }
+    ]
+    

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Bicicletas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Catálogo de Bicicletas</h1>
+    <nav>
+      <button onclick="abrirModal('modal-registro')">Registrarse</button>
+      <button onclick="abrirModal('modal-inicio-sesion')">Iniciar Sesión</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Menú Desplegable para Seleccionar Bicicleta -->
+    <div class="busqueda">
+      <select id="seleccion-bicicleta">
+        <option value="">Selecciona una bicicleta</option>
+      </select>
+      <button onclick="buscarBicicleta()">Buscar</button>
+      <button onclick="eliminarBusqueda()">Eliminar Búsqueda</button>
+  <button onclick="anadirAlCarrito()">Añadir al Carrito</button>
+  <button onclick="generarCompra()">Generar Compra</button>
+    </div>
+
+    <!-- Div para mostrar los detalles de la bicicleta seleccionada -->
+    <div id="detalles-bicicleta"></div>
+
+    <!-- Carrito de Compras -->
+    <div id="carrito">
+      <h2>Carrito de Compras</h2>
+      <ul id="lista-carrito"></ul>
+      <p>Total: $<span id="total-carrito">0</span></p>
+      <button onclick="procesarCompra()">Procesar Compra</button>
+    </div>
+  </main>
+
+  <!-- Modales para Registro e Inicio de Sesión -->
+  <div id="modal-registro" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="cerrarModal('modal-registro')">&times;</span>
+      <h2>Registro</h2>
+      <form id="form-registro">
+        <input type="text" placeholder="Nombre de usuario" required>
+        <input type="email" placeholder="Correo electrónico" required>
+        <input type="password" placeholder="Contraseña" required>
+        <button type="submit">Registrarse</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="modal-inicio-sesion" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="cerrarModal('modal-inicio-sesion')">&times;</span>
+      <h2>Iniciar Sesión</h2>
+      <form id="form-inicio-sesion">
+        <input type="email" placeholder="Correo electrónico" required>
+        <input type="password" placeholder="Contraseña" required>
+        <button type="submit">Iniciar Sesión</button>
+      </form>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
